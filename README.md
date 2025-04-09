@@ -5,7 +5,7 @@ keep track of their scores in a basketball game. Users can increase each team’
 using interactive buttons. When a team reaches 21 points, the application announces the winner and resets the scores.
 
 
-* Features :
+# Features :
 
 * Live score display for Team A and Team B
 
