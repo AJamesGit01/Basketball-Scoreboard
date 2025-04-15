@@ -11,11 +11,11 @@
     if (team === 'a') {
       scoreA += points;
       document.getElementById('score-a').textContent = scoreA;
-      historyLog.innerHTML += `<li>Team A scored +${points}</li>`;
+      historyLog.innerHTML += `<li>Team Home scored +${points}</li>`;
     } else {
       scoreB += points;
       document.getElementById('score-b').textContent = scoreB;
-      historyLog.innerHTML += `<li>Team B scored +${points}</li>`;
+      historyLog.innerHTML += `<li>Team Guest scored +${points}</li>`;
     }
 
     updateWinnerHighlight();
