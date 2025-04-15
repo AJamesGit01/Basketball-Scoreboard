@@ -18,6 +18,38 @@ body {
     width: 90%;
     max-width: 500px;
   }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    animation: rgbGlow 3s infinite linear;
+    color: white; /* Optional: base color */
+  }
+
+  @keyframes rgbGlow {
+    0% {
+      text-shadow: 0 0 10px #00f7ff, 0 0 20px #00f7ff;
+      color: white;
+    }
+    25% {
+      text-shadow: 0 0 10px #6bda57, 0 0 20px #7bca6d;
+      color: #39ff14;
+    }
+    50% {
+      text-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2;
+      color: #e0e0ff;
+    }
+    75% {
+      text-shadow: 0 0 10px #ffffff, 0 0 20px #999;
+      color: #ffffff;
+    }
+    100% {
+      text-shadow: 0 0 10px #00f7ff, 0 0 20px #00f7ff;
+      color: white;
+    }
+  }
+  
   
   .teams {
     display: flex;
