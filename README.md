@@ -7,7 +7,7 @@ using interactive buttons. When a team reaches 21 points, the application announ
 
 # Features :
 
-* Live score display for Team A and Team B
+* Live score display for Team Home and Team Guest
 
 * Buttons to add +1, +2, or +3 points
 
