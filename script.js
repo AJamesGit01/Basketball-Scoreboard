@@ -47,7 +47,7 @@
 
   function checkWinner() {
     if (scoreA >= WINNING_SCORE || scoreB >= WINNING_SCORE) {
-      let winner = scoreA > scoreB ? "Team A" : "Team B";
+      let winner = scoreA > scoreB ? "Team Home" : "Team Guest";
       alert(`${winner} wins the game!`);
       resetScores();
     }
